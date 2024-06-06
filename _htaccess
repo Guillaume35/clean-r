@@ -1,0 +1,12 @@
+Options All -Indexes
+Options +FollowSymlinks
+RewriteEngine On
+
+# Check https redirection
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Check www redirection
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule (.*) https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
