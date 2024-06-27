@@ -10,10 +10,12 @@ class Page {
 
     public string $structure = "structure.php";
 
+    public ?array $variables = [];
+
     public function __construct(array $configOptions = null)
     {
         if ($configOptions) {
-            $props = ["title", "content", "structure"];
+            $props = ["title", "content", "structure", "variables"];
 
             foreach ($props as $key) {
                 if (isset($configOptions[$key])) {
@@ -37,7 +39,15 @@ class Page {
      */
     public function render()
     {
+        $content = $this->content;
+        foreach ($this->variables as $var => $value) {
+            $content = str_replace("{".$var."}", $value, $content);
+        }
+
         $page = $this;
+
+        $page->content = $content;
+        
         include(__DIR__ . "/../template/".$this->structure);
     }
 }

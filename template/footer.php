@@ -5,7 +5,11 @@
         <div class="container">
             <img src="/assets/partners/burger-king.svg" alt="Burger King" class="partner-image">
             <h2>Burger King, partenaire exclusif</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam. Modi excepturi libero suscipit quisquam corrupti aspernatur, totam veritatis officiis inventore earum ipsam esse quod officia nulla necessitatibus, repellendus sequi?</p>
+            <p>
+                Clean R est fier d'annoncer son partenariat avec Burger King pour le nettoyage des cuisines de ses restaurants 
+                en Suisse. Ce partenariat témoigne de la confiance que Burger King accorde à Clean R pour maintenir des 
+                standards d'hygiène et de propreté optimales dans ses cuisines.
+            </p>
             <div>
                 <a href="/partenaires" class="btn btn-outline-white">En savoir +</a>
             </div>

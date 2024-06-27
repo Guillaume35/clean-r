@@ -18,10 +18,24 @@
                     <a href="/" class="menu-link">Accueil</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/partenaires" class="menu-link">Partenaires</a>
+                    <a href="/entreprise" class="menu-link">Entreprise</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/realisations" class="menu-link">Réalisations</a>
+                    <a href="/partenaires" class="menu-link">Partenaires</a>
+                </li>
+                <li class="menu-item dropdown">
+                    <a href="/realisations" class="menu-link dropdown-toggler">Réalisations</a>
+                    <ul class="dropdown-menu">
+                        <li class="menu-item">
+                            <a href="/realisations/ventilation" class="menu-link">Dégraissage ventilation</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/realisations/trappes-visites" class="menu-link">Trappes de visites</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/realisations/nettoyage" class="menu-link">Nettoyage sols &amp; équipements</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
     
