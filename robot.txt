@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /services/
+Disallow: /pages/
+Disallow: /assets/style.css
+Disallow: /assets/carousel.css
+Disallow: /assets/gallery.css
+Disallow: /assets/bootstrap-5.3.2-dist/
+
+Sitemap: https://www.cleanr-renovation.ch/sitemap.xml

@@ -24,16 +24,16 @@
                     <a href="/partenaires" class="menu-link">Partenaires</a>
                 </li>
                 <li class="menu-item dropdown">
-                    <a href="/realisations" class="menu-link dropdown-toggler">Réalisations</a>
+                    <a href="/prestations" class="menu-link dropdown-toggler">Prestations</a>
                     <ul class="dropdown-menu">
                         <li class="menu-item">
-                            <a href="/realisations/ventilation" class="menu-link">Dégraissage ventilation</a>
+                            <a href="/prestations/ventilation" class="menu-link">Dégraissage ventilation</a>
                         </li>
                         <li class="menu-item">
-                            <a href="/realisations/trappes-visites" class="menu-link">Trappes de visites</a>
+                            <a href="/prestations/trappes-visites" class="menu-link">Trappes de visites</a>
                         </li>
                         <li class="menu-item">
-                            <a href="/realisations/nettoyage" class="menu-link">Nettoyage sols &amp; équipements</a>
+                            <a href="/prestations/nettoyage" class="menu-link">Nettoyage professionnel</a>
                         </li>
                     </ul>
                 </li>

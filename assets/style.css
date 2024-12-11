@@ -1,3 +1,6 @@
+@import url(carousel.css);
+@import url(gallery.css);
+
 * {
     box-sizing: border-box;
 }
@@ -6,8 +9,21 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color:rgb(50,50,50);
+}
+
+.container {
+    max-width: 1024px !important;
+}
+
+ul li {
+    list-style-type: square;
+    margin-bottom: 12px;
+}
+
+p, li:not(.menu-item), h1, h2, h3 {
+    line-height: 150%;
 }
 
 h1, h2 {
@@ -295,6 +311,7 @@ h2.fs-2 {
 
 .dropdown-menu {
     display: none;
+    box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.2);
 }
 
 .dropdown.active > .dropdown-menu {
@@ -351,6 +368,10 @@ h2.fs-2 {
 
 .text-gold {
     color:rgb(255,185,33);
+}
+
+.text-success {
+    color:rgb(26, 165, 77);
 }
 
 .fs-6 {
@@ -573,12 +594,6 @@ h2.fs-2 {
 .card-shadow-dark.card-shadow-link,
 .card-shadow-primary.card-shadow-link,
 .card-shadow-raiv.card-shadow-link {
-    color:white;
-}
-
-.card-shadow-raiv {
-    background-color: #ba1414;
-    box-shadow: 8px 8px rgb(235, 235, 235);
     color:white;
 }
 

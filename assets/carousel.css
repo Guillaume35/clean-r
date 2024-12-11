@@ -1,0 +1,52 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slides {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 0%;
+    transition: margin-left .3s;
+}
+
+.carousel-slide {
+    width: calc(100% - 64px);
+    flex: 0 0 calc(100% - 64px);
+    margin: 0px 32px;
+}
+
+.carousel-control {
+    position: absolute;
+    background-size: 100% 100%;
+    width: 24px;
+    height: 42px;
+    top: 50%;
+    margin-top: -21px;
+    margin-left: 0px;
+    display: block;
+    z-index: 2;
+    cursor: pointer;
+    transition: margin-top .3s, margin-left .3s;
+}
+
+.carousel-control.hidden {
+    display: none;
+}
+
+.carousel-control:hover {
+    margin-top: -25px;
+    margin-left: -4px;
+}
+
+.carousel-left-control {
+    background-image: url("../assets/arrow-left.svg");
+    left: 0px;
+}
+
+.carousel-right-control {
+    right: 0px;
+    background-image: url("../assets/arrow-right.svg");
+}
